@@ -69,10 +69,11 @@
 
     <!-- If you add any new buttons, you need to update the javascript file, for
     corresponding button id, so that clicks of that button could be logged -->
-    <div class="content-pane">
-      <div class="vendor-wrapper" id="mp1">
-        <img src="../static/coppercombo.png" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">
+    <div class="content-pane aflex">
+      <section class="agrid">
+      <div class="vendor-wrapper aitem" id="mp1">
+        <img src="../static/coppercombo.png" class="vendor-photo aphoto" />
+        <button class="vendor-book-button btn btn-primary abutton" type="submit" id="mp1">
           Add To Cart
         </button>
         <span><span id="mp1-added">0</span> in cart</span>
@@ -82,8 +83,8 @@
       </div>
 
       <div class="vendor-wrapper" id="mp2">
-        <img src="../static/geoprickly.jpg" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp2">
+        <img src="../static/geoprickly.jpg" class="vendor-photo aphoto" />
+        <button class="vendor-book-button btn btn-primary abutton" type="submit" id="mp2">
           Add To Cart
         </button>
         <span><span id="mp2-added">0</span> in cart</span>
@@ -92,8 +93,8 @@
       </div>
 
       <div class="vendor-wrapper" id="mp3">
-        <img src="../static/garden.jpg" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp3">
+        <img src="../static/garden.jpg" class="vendor-photo aphoto" />
+        <button class="vendor-book-button btn btn-primary abutton" type="submit" id="mp3">
           Add To Cart
         </button>
         <span><span id="mp3-added">0</span> in cart</span>
@@ -102,16 +103,16 @@
       </div>
 
       <div class="vendor-wrapper" id="mp4">
-        <img src="../static/garden-combo.jpg" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp4">
+        <img src="../static/garden-combo.jpg" class="vendor-photo aphoto photo4" />
+        <button class="vendor-book-button btn btn-primary abutton" type="submit" id="mp4">
           Add To Cart
         </button>
         <span><span id="mp4-added">0</span> in cart</span>
         <p>Cacti, succulent, and garden combo in handcrafted pots. <i>$34.99</i>
         </p>
       </div>
-
-      <div id="cart-wrapper">
+</section>
+      <div class= "acart" id="cart-wrapper">
         <a onclick='navigateToCheckout()'>
         <span id="cart" class="fa-stack fa-2x has-badge" data-count="0">
           <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
