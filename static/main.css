@@ -2,12 +2,11 @@
 html body {
 	background-color: #ecedd5;
 }
-.bclass {
-  background-color: pink;
-}
+
 header {
-	padding-left: 40px;
+	padding-left: 60px;
 	padding-top: 20px;
+  text-align: center;
 }
 
 .vendor-wrapper {
@@ -54,4 +53,29 @@ header {
 
 .red-cart {
 	color: #DF0000;
+}
+
+.aphoto {
+  display: block;
+  left: 80%;
+  height: 150px;
+  width: 100%;
+}
+.abutton {
+ margin: 10px 20px 10px 0;
+}
+
+p {
+  width: 300px;
+}
+
+.agrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 0px 0px 250px;
+}
+.acart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
